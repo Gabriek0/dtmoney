@@ -5,7 +5,31 @@ import { createServer, Model } from 'miragejs'
 
 createServer({
   models: {
-    transaction: Model
+    transaction: Model,
+  },
+
+  seeds(server) {
+    server.db.loadData({
+      transactions: [
+        {
+          id: 1,
+          title: 'Freelancer de website',
+          type: 'deposit',
+          category: 'dev',
+          amount: 6000,
+          createdAt: new Date('2001-02-12 09:08:20')
+        },
+        {
+          id: 2,
+          title: 'Conserto de geladeira',
+          type: 'deposit',
+          category: 'dev',
+          amount: 4000,
+          createdAt: new Date('2001-03-12 10:08:20')
+        }
+      ],
+
+    })
   },
 
   routes() {
