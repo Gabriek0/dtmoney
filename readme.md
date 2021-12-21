@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 [Styled-components]: https://styled-components.com/
 [Polished]: https://polished.js.org/
 
-### 🤔 Como rodar o projeto? 
+## 🤔 Como rodar o projeto? 
 
 ```bash
 # Clone o repositório
@@ -35,13 +35,13 @@ git clone https://github.com/Gabriek0/dtmoney
 cd https://github.com/Gabriek0/dtmoney
 
 # Instale as dependências
-npm
+yarn
 
 # Rode o projeto
 npm start
 ```
 
-###🧑 Autor do Projeto
+### 🧑 Autor do Projeto
 
 <table>
   <tr>
